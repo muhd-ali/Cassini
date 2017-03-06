@@ -25,7 +25,15 @@ class ImageViewController: UIViewController {
         }
     }
     
+
+    
+    
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var scrollView: UIScrollView! {
+        didSet {
+            scrollView?.contentSize = imageView.frame.size
+        }
+    }
     
     var image: UIImage? {
         get {
@@ -39,6 +47,6 @@ class ImageViewController: UIViewController {
     }
     
     override func viewDidLoad() {
-        imageURL = NSURL(string: "http://www.uniwallpaper.com/static/images/eiffel-tower-wallpaper-18_fRZLW4V.jpg")
+        scrollView.addSubview(imageView)
     }
 }

@@ -12,6 +12,7 @@
 		B988C9DD1E6D60A500D35977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B988C9DC1E6D60A500D35977 /* Assets.xcassets */; };
 		B988C9E01E6D60A500D35977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B988C9DE1E6D60A500D35977 /* LaunchScreen.storyboard */; };
 		B988C9E91E6D610300D35977 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B988C9E81E6D610300D35977 /* ImageViewController.swift */; };
+		B988C9EB1E6D722C00D35977 /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B988C9EA1E6D722C00D35977 /* CassiniViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B988C9DF1E6D60A500D35977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B988C9E11E6D60A500D35977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B988C9E81E6D610300D35977 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		B988C9EA1E6D722C00D35977 /* CassiniViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 		B988C9D41E6D60A500D35977 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				B988C9E81E6D610300D35977 /* ImageViewController.swift */,
 				B988C9D91E6D60A500D35977 /* Main.storyboard */,
+				B988C9E81E6D610300D35977 /* ImageViewController.swift */,
+				B988C9EA1E6D722C00D35977 /* CassiniViewController.swift */,
 				B988C9E11E6D60A500D35977 /* Info.plist */,
 				B988C9E71E6D60CA00D35977 /* Extras */,
 			);
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B988C9E91E6D610300D35977 /* ImageViewController.swift in Sources */,
+				B988C9EB1E6D722C00D35977 /* CassiniViewController.swift in Sources */,
 				B988C9D61E6D60A500D35977 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
