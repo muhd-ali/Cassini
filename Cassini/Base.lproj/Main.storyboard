@@ -113,7 +113,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="jjO-Kw-f96"/>
                     <connections>
-                        <outlet property="imageView" destination="qYy-n5-O3g" id="gMZ-g5-JUl"/>
+                        <outlet property="imageView" destination="qYy-n5-O3g" id="85V-Cq-xLQ"/>
                         <outlet property="scrollView" destination="RaK-Yb-xME" id="uSF-JU-WKD"/>
                     </connections>
                 </viewController>

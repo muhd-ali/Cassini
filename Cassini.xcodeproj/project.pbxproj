@@ -107,6 +107,7 @@
 				TargetAttributes = {
 					B988C9D11E6D60A400D35977 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3F8V2776R5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -272,7 +273,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3F8V2776R5;
 				INFOPLIST_FILE = Cassini/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PRO.ali.Cassini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,7 +287,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3F8V2776R5;
 				INFOPLIST_FILE = Cassini/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PRO.ali.Cassini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -311,6 +316,7 @@
 				B988C9E61E6D60A500D35977 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

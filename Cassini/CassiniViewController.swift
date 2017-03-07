@@ -13,6 +13,7 @@ class CassiniViewController: UIViewController {
     let imageURLS = [
         "image1" : "http://www.uniwallpaper.com/static/images/eiffel-tower-wallpaper-18_fRZLW4V.jpg",
         "image2" : "http://www.planwallpaper.com/static/images/2022725-wallpaper_625864_Iz6NK8G.jpg",
+        "image3" : "colorfulBackground.jpg",
     ]
     
     func getURL(imageName: String?) -> NSURL? {
@@ -29,7 +30,7 @@ class CassiniViewController: UIViewController {
         if segue.identifier == "Show Image" {
             if let ivc = segue.destination.contentViewController as? ImageViewController {
                 let imageName = (sender as? UIButton)?.currentTitle
-                ivc.imageURL = getURL(imageName: imageName)
+                ivc.imageURLToLoad = getURL(imageName: imageName)
                 ivc.title = imageName
             }
         }

@@ -9,8 +9,8 @@
 import UIKit
 
 class ImageViewController: UIViewController {
-    
-    var imageURL: NSURL? {
+    var imageURLToLoad: NSURL?
+    private var imageURL: NSURL? {
         didSet {
             image = nil
             fetchImage()
@@ -27,11 +27,10 @@ class ImageViewController: UIViewController {
     
 
     
-    
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var scrollView: UIScrollView! {
         didSet {
-            scrollView?.contentSize = imageView.frame.size
+            scrollView.contentSize = imageView.frame.size
         }
     }
     
@@ -41,12 +40,14 @@ class ImageViewController: UIViewController {
         }
         
         set {
-            imageView.image = newValue
-            imageView.sizeToFit()
+            imageView?.image = newValue
+            imageView?.sizeToFit()
         }
     }
     
     override func viewDidLoad() {
+        super.viewDidLoad()
+        imageURL = imageURLToLoad
         scrollView.addSubview(imageView)
     }
 }
